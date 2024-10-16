@@ -1,0 +1,18 @@
+.holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    width: calc(33.33% - 10px); 
+    margin-bottom: 20px;
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.item:nth-child(4),
+.item:nth-child(5) {
+    width: calc(50% - 10px); 
+}
